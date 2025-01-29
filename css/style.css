@@ -1,0 +1,259 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+
+nav p, nav a {
+    margin: 0;
+    color: lightgray
+
+
+}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    display: flexbox;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 10px 0
+
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    
+    
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    text-align: center;
+}
+
+.splash h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #eb9234;
+}
+
+.splash img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.splash p {
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+.splash .address {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2E3A59;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.splash .tagline {
+    font-family: 'Poppins', sans-serif;
+    color:cornflowerblue;
+    font-style: italic;
+
+}
+
+/* Horizontal Rules */
+hr {
+    margin: 30px auto;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #2E3A59;
+    font-size:x-large;
+
+}
+
+/* Paragraph Styles */
+section p {
+
+}
+
+section .education {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    width: 90%;
+
+}
+
+section .zellmiller {
+    color: #eb9234;
+    font-size: large;
+}
+
+
+section .deanslist {
+    color: #eb9234;
+    font-size: large;
+}
+/* link styles */
+section a {}
+section a:hover {}
+
+/* List Styles */
+ul {
+    padding-left: 0;
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+dl {
+    display: grid;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+dt .codeninjas{ 
+    color:#eb9234;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+dt .codeninjas:hover{ 
+    text-decoration: underline;
+    
+}
+
+dt .pivitu{ 
+    color:#eb9234;
+    text-decoration:none;
+    font-size: large;
+}
+
+dt .pivitu:hover{ 
+    color:#eb9234;
+    text-decoration: underline;
+}
+
+
+dl dt{
+
+}
+dl dd{
+    font-size:medium;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: cornflowerblue; /* Light background for the card */
+    border: 1px solid #ddd;
+}
+
+.card img {
+    width: 100%; 
+    max-width: 190px; 
+    height: auto; 
+    margin: 0 auto 15px; 
+    display: block; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px; 
+    margin-top: 20px; 
+
+}
+
+.card h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size:medium;
+    color: seashell
+}
+
+.card ul {
+    font-family: 'Poppins', sans-serif;
+    color:#ddd
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f8f9fa;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    gap: 1.1rem;
+}
+
+form input, form textarea {
+   width: 100%;width: 100%;
+    max-width: 400px;
+}
+
+form input:focus, form textarea:focus {
+    width: 100%; 
+    margin-bottom: 10px;
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    
+}
+
+
+form button {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form button:hover {
+    background-color:darkgray;
+}
+
